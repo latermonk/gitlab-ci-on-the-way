@@ -1,5 +1,9 @@
 # gtilab-ci-on-the-way
 
+https://about.gitlab.com/install/?version=ce#ubuntu
+
+
+
 **几个概念**
 *  pipline
 * stage
