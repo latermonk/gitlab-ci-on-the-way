@@ -1,4 +1,4 @@
-# gtilab-ci-on-the-way
+# gitlab-ci-on-the-way
 
 https://about.gitlab.com/install/?version=ce#ubuntu
 
