@@ -5,7 +5,7 @@
 https://taskfile.dev/#/installation
 
 
-##  ci 
+##  CI
 
 **Taskfile.yml**
 ```
