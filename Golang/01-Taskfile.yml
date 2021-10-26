@@ -1,0 +1,21 @@
+version: '2'
+
+tasks:
+  all:
+    desc: Install, Compile, Test and Build Semaphore for local architecture
+    cmds:
+      - task: compile
+
+  compile:
+    desc: Generates compiled frontend and backend resources (must be in this order)
+    cmds:
+      - task: compile:be
+
+  compile:be:
+    desc: Runs Packr for static assets
+    sources:
+      - web2/dist/*
+      - db/migrations/*
+    cmds:
+      - ls
+      - go build
